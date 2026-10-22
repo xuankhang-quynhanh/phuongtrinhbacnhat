@@ -1,5 +1,4 @@
 def giai_phuong_trinh_bac_1(a, b):
-    try:
     if a == 0:
         if b == 0:
             return "Phương trình có vô số nghiệm."
@@ -8,7 +7,8 @@ def giai_phuong_trinh_bac_1(a, b):
     else:
         x = -b / a
         return f"Phương trình có nghiệm duy nhất x = {x}"
-        
+
+try:
 a = float(input("Nhập hệ số a: "))
 b = float(input("Nhập hệ số b: "))
 ket_qua = giai_phuong_trinh_bac_1(a, b)
