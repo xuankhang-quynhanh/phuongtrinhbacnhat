@@ -7,6 +7,7 @@ def giai_phuong_trinh_bac_1(a, b):
     else:
         x = -b / a
         return f"Phương trình có nghiệm duy nhất x = {x}"
+        
 a = float(input("Nhập hệ số a: "))
 b = float(input("Nhập hệ số b: "))
 ket_qua = giai_phuong_trinh_bac_1(a, b)
