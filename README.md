@@ -16,6 +16,5 @@ print(ket_qua)
 except ValueError:
     myui.lineEdit_MK.setText("Nhập hệ số a:")
     myui.lineEdit_MK_2.setText("Nhập hệ số b:")
-    myui.lineEdit_MK_3.setText("Nhập hệ số c:")
 
 
